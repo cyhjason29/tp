@@ -97,6 +97,7 @@ public class Player2113 {
         } catch (FileNotFoundException e) {
             throw new CustomException(MESSAGE_FILE_ERROR);
         }
+        
         ui.resumeTopic(pausedQuestion, topicList, questionListByTopic, allResults, userAnswers, storage, ui,
                 answers, correctness, topicResults);
     }
