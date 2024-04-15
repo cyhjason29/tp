@@ -49,7 +49,7 @@ What is your name?
 
 ## Usage
 
-> **IMPORTANT**
+> **[IMPORTANT]**
 >
 > The current release of Player2113 is a MVP preview version with various proposed functions unimplemented. Please
 > strictly follow this user's guide.
@@ -121,8 +121,9 @@ Format: `results [details] [ATTEMPT_NUM]`
 - Command works as long as the user input starts with `results` (e.g. `resultsss`, `resultsad`) for easier usage.
 
 Examples:
-` results details 2 ` shows the results for Attempt 2 (with questions and answers)
-` results 2 ` shows the results for Attempt 2 (score only)
+
+`results details 2` shows the results for Attempt 2 (with questions and answers)
+`results 2` shows the results for Attempt 2 (score only)
 
 ### 3. Get solution(s) for a question / topic: `solution`
 
@@ -135,9 +136,10 @@ Format: `solution TOPIC_NUM [INDEX]`
 - If `INDEX` is omitted, command will show all solutions for specified TOPIC_NUM
 
 Examples:
-` solution 1 ` shows the solutions for topic 1
-` solution 1 1 ` shows the solution for topic 1 question 1
-` solution ` will be ignored
+
+`solution 1` shows the solutions for topic 1
+`solution 1 1` shows the solution for topic 1 question 1
+`solution` will be ignored
 
 ### 4. Get explanation(s) for a question / topic: `explain`
 
@@ -150,9 +152,10 @@ Format: `explain TOPIC_NUM [INDEX]`
 - If `INDEX` is omitted, command will show all explanations for specified TOPIC_NUM
 
 Examples:
-` explain 1 ` shows all explanations for topic 1
-` explain 1 1 ` shows the explanation for topic 1 question 1
-` explain  ` will be ignored
+
+`explain 1` shows all explanations for topic 1
+`explain 1 1` shows the explanation for topic 1 question 1
+`explain` will be ignored
 
 ### 5. Attempt the questions under a time limit: `timed mode`
 
@@ -164,8 +167,9 @@ Format: `timed mode TIME_LIMIT`
 - The`TIME_LIMIT` must be a non-zero positive integer (e.g. 1, 2, 3, …).
 
 Examples:
-` timed mode 5 ` sets time limit to 5s
-` timed mode ` will be ignored.
+
+`timed mode 5` sets time limit to 5s
+`timed mode` will be ignored.
 
 Sample Output:
 
@@ -250,8 +254,9 @@ Format: `custom TOPIC_NUM NUM_OF_QUESTIONS`
   topics and questions available.
 
 Examples:
-` custom 1 3 ` will generate a question set of 3 questions from topic 1.
-` custom 1 ` is ignored.
+
+`custom 1 3` will generate a question set of 3 questions from topic 1.
+`custom 1` is ignored.
 
 > **NOTE**
 > 
@@ -271,7 +276,8 @@ Format: `checkpoint NUM_OF_QUESTIONS`
   available.
 
 Examples:
-` checkpoint 5 ` will set a goal of 5 questions and the user will get a congratulatory message after reaching
+
+`checkpoint 5` will set a goal of 5 questions and the user will get a congratulatory message after reaching
 this goal by attempting customised questions.
 
 > **NOTE:**

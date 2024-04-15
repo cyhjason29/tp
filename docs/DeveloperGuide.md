@@ -19,7 +19,7 @@
     * [Viewing Solutions](#viewing-solutions)
     * [Viewing Explanations](#viewing-explanations)
     * [Selecting Timed Mode](#selecting-timed-mode)
-    * [Viewing all topics available](#viewing-all-topics-available-)
+    * [Viewing all topics available](#viewing-all-topics-available)
     * [Viewing Help](#viewing-help)
     * [Pause and Resume GamePlay](#pause-and-resume-gameplay)
     * [Customizing questions](#customizing-questions)
@@ -194,6 +194,7 @@ file. If successful, `Storage` will convert the formatted text back into
 the necessary game data and add them back into `ResultsList`, `TopicList` and `AnswerTracker`.
 
 The following is the class diagram:
+
 ![Storage Class Diagram](./team/img/DG/Storage.png)
 
 ### Custom Feature
@@ -205,6 +206,7 @@ This feature is facilitated by `Parser#handleCustomCommand` which is called by `
 Within `Parser#handleCustomCommand`, Java regular expression packages `Pattern` and `Matcher` are used to ensure that the command is given in valid format. They are also used to extract the relevant parameters.
 
 The following is the overview of the method:
+
 ![Custom sequence diagram](team/img/DG/Custom.png)
 
 ### Checkpoint Feature
@@ -216,6 +218,7 @@ This feature is facilitated by `Parser#handleCheckpointCommand` which is called 
 Once the checkpoint goal has been reached, the user will be notified that they have achieved their goal for the session.
 
 The following is the overview of the method:
+
 ![Checkpoint sequence diagram](team/img/DG/Checkpoint.png)
 
 ### Clear Feature
@@ -227,6 +230,7 @@ This feature is facilitated by `Parser#handleClearCommand` which is called by `P
 To prevent the user from accidentally clearing their progress, they would get an additional prompt to confirm that they want to clear their progress.
 
 The following is the overview of the method:
+
 ![Clear sequence diagram](team/img/DG/Clear.png)
 
 

@@ -46,8 +46,7 @@ reviews the solutions. The application has about 3.6k lines of code and is writt
       invalid like 0 or an out-of-bounds index.
 
 
-* **Code Contributed:
-  ** [RepoSense Link](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=ngxzs&breakdown=true&sort=groupTitle%20dsc&sortWithin=title&since=2024-02-23&timeframe=commit&mergegroup=&groupSelect=groupByRepos&checkedFileTypes=docs~functional-code~test-code~other)
+* **Code Contributed:** [RepoSense Link](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=ngxzs&breakdown=true&sort=groupTitle%20dsc&sortWithin=title&since=2024-02-23&timeframe=commit&mergegroup=&groupSelect=groupByRepos&checkedFileTypes=docs~functional-code~test-code~other)
 
 
 * **Enhancements to existing features:**
